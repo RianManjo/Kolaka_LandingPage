@@ -1,0 +1,381 @@
+.navbar {
+    background-color: #003F7D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 0;
+}
+
+#hero{
+    margin-top:200px;
+}
+#hero .company{
+    width:100%;
+}
+
+
+.content-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 40px;
+}
+
+.logokolaka {
+    width: 82.97px;
+    height: 93px;
+}
+
+.content-navbar p {
+    margin-top: 18.5px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+
+/* .companyimg {    
+    float: right;
+    position: absolute;
+}
+
+.companyimg img {
+    float: right;
+    position: relative;    
+} */
+
+/* .content-navbar p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Inter, sans-serif;
+    letter-spacing: 1px;
+} */
+
+.welcome h1 {
+    color: #003F7D;
+    /* margin-top: 199px; */
+    font-weight: 600;
+    font-size: 50px;
+    font-family: Inter, sans-serif;
+}
+
+.welcome p {
+    color: #7D7987;
+}
+
+#hero .title {
+    color: #003F7D;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#hero .sub-title {
+    color: #7D7987;
+    font-size: 21px;
+    font-family: Mulish, sans-serif;
+    font-weight: lighter;
+
+    
+}
+
+/* .welcome {
+    animation-name: slide-right;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    margin-left: -350px;
+    float: left;
+} */
+
+
+
+
+
+
+
+
+
+/* @keyframes slide-right {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+} */
+
+/* .industri {
+    animation-name: slide-left;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    float: right;
+    margin-top: 279px;
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    0% {
+        transform: translateX(100%);
+    }
+} */
+
+
+
+#aplikasi {
+    margin-bottom: 120px;
+    background-image: url('assets/image/Frame\ 40323\ \(2\).png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.aplikasi {
+    color: #003F7D;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: Inter, sans-serif;
+    margin-top: 10vh;
+}
+
+.text-center-sorume {
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.text-center-emonev {
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.text-center-esakip {
+    color: #FECD0E;
+    font-size: 10px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+.title {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+
+
+
+.box {
+    height: 250px;
+    width: 245px;
+    background-color: #7D7987;
+    margin-bottom: 100px;
+}
+
+section {
+    margin-bottom: 2vh;
+}
+
+footer{
+    background-color: #003F7D;
+    padding: 40px 0;
+    color: #fff;
+}
+
+footer .title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.footer-ket .ket {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-top: -5px;
+}
+
+.footers3 {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.card {
+    animation-name: slide-up;
+}
+
+/* Atur animasi slide up pada elemen dengan data-aos="fade-up" */
+.card[data-aos="fade-up"] {
+    opacity: 0;
+    transform: translateY(50px); /* Sesuaikan nilai translateY sesuai keinginan Anda */
+    transition: opacity 30s, transform 30s; /* Sesuaikan durasi animasi sesuai keinginan Anda */
+  }
+  
+  /* Pastikan elemen telah muncul dan transform ke posisi semula saat di-scroll */
+  .card[data-aos="fade-up"].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+@media (max-width: 767px) {
+
+    .navbar {
+        background-color: #003F7D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 0;
+    }
+    .content-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        gap: 15px;
+    }
+
+    .content-navbar p {
+        margin-top: 18.5px;
+        font-size: 20px;
+        font-weight: bold
+    }
+    #hero{
+        margin-top: 120px;
+    }
+    #hero .company{
+        width:80%;
+        display: flex;
+        margin: 0 auto;
+    }
+    #hero .title {
+        color: #003F7D;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #hero .sub-title {
+        font-size: 15px;
+    }
+
+    .welcome {
+        margin-top: 18vh;
+        /* background-color: red;
+        position: relative;
+        width: 100px;
+        color: #000; */
+        margin-left: -200px;        
+    }
+
+    .welcome h1 {
+        font-size: 24px;
+    }
+
+    .welcome p {
+        font-size: 10px;        
+    }
+    
+    .logokolaka {
+        width: 30px;
+        height: 40px;
+    }
+
+    .line {
+        width: 2.5px;
+        height: 26px;
+    }
+
+    .content-navbar p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .industri {
+        animation-name: slide-left;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        float: right;
+        margin-top: 160px;
+    }
+
+    .industri img {
+        width: 200px;
+        height: auto;
+    }
+    
+    /* .welcome h1 {
+        font-size: 30px;
+        top: 0;
+        margin-top: -320px;
+    } */
+
+    .aplikasi {
+        font-size: 20px;
+    }
+
+    footer{
+        background-color: #003F7D;
+        padding: 40px 0;
+        color: #fff;
+        
+    }
+    
+    footer .title{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 9px;
+    }
+
+    .footers img {
+        height: 30px;
+    }
+
+    .footer-ket .ket {
+        font-size: 8px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        width: 70%;
+    }
+
+    .footers3 {
+        font-size: 7px;
+        font-weight: 100;
+        letter-spacing: 1.2px;
+    }
+
+    .icon img {
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+    }
+    footer{
+        background-color: #003F7D;
+        padding: 10px 0;
+        color: #fff;
+        
+    }
+
+    
+
+}
+
+
+
+
+
+
