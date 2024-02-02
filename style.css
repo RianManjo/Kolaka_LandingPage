@@ -9,10 +9,10 @@
 #hero{
     margin-top:200px;
 }
+
 #hero .company{
     width:100%;
 }
-
 
 .content-navbar {
     display: flex;
@@ -32,25 +32,6 @@
     font-size: 20px;
     font-weight: bold
 }
-
-
-/* .companyimg {    
-    float: right;
-    position: absolute;
-}
-
-.companyimg img {
-    float: right;
-    position: relative;    
-} */
-
-/* .content-navbar p {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 20px;
-    font-family: Inter, sans-serif;
-    letter-spacing: 1px;
-} */
 
 .welcome h1 {
     color: #003F7D;
@@ -74,54 +55,8 @@
     color: #7D7987;
     font-size: 21px;
     font-family: Mulish, sans-serif;
-    font-weight: lighter;
-
-    
+    font-weight: lighter;    
 }
-
-/* .welcome {
-    animation-name: slide-right;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    margin-left: -350px;
-    float: left;
-} */
-
-
-
-
-
-
-
-
-
-/* @keyframes slide-right {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateX(100%);
-    }
-} */
-
-/* .industri {
-    animation-name: slide-left;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    float: right;
-    margin-top: 279px;
-}
-
-@keyframes slide-left {
-    0% {
-        transform: translateX(0);
-    }
-    0% {
-        transform: translateX(100%);
-    }
-} */
-
-
 
 #aplikasi {
     margin-bottom: 120px;
@@ -169,8 +104,6 @@
     font-family: Inter, sans-serif;
 }
 
-
-
 .box {
     height: 250px;
     width: 245px;
@@ -217,20 +150,6 @@ footer .title{
 .card {
     animation-name: slide-up;
 }
-
-/* Atur animasi slide up pada elemen dengan data-aos="fade-up" */
-.card[data-aos="fade-up"] {
-    opacity: 0;
-    transform: translateY(50px); /* Sesuaikan nilai translateY sesuai keinginan Anda */
-    transition: opacity 30s, transform 30s; /* Sesuaikan durasi animasi sesuai keinginan Anda */
-  }
-  
-  /* Pastikan elemen telah muncul dan transform ke posisi semula saat di-scroll */
-  .card[data-aos="fade-up"].aos-animate {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
 
 @media (max-width: 767px) {
 
@@ -316,12 +235,6 @@ footer .title{
         width: 200px;
         height: auto;
     }
-    
-    /* .welcome h1 {
-        font-size: 30px;
-        top: 0;
-        margin-top: -320px;
-    } */
 
     .aplikasi {
         font-size: 20px;
@@ -369,9 +282,6 @@ footer .title{
         color: #fff;
         
     }
-
-    
-
 }
 
 
